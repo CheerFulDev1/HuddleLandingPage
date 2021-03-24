@@ -177,7 +177,7 @@ img {
 }
 
 .cta-card {
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
 .cta-card .card {
@@ -204,5 +204,84 @@ img {
   background-color: #ff52bf;
   -webkit-box-shadow: -2px 2px 20px -12px #808d99;
           box-shadow: -2px 2px 20px -12px #808d99;
+}
+
+.footer {
+  margin-top: -45px;
+  background-color: #00252e;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-top: 25px;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer__info .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.footer__info .contact img {
+  width: 20px;
+  margin-top: 5px;
+}
+
+.footer__info .contact p {
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+.footer__info .footer-1 {
+  margin-top: 30px;
+}
+
+.footer__info .footer-1 .logo {
+  width: 150px;
+}
+
+.footer .footer-4 {
+  margin-top: 65px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.footer__copyright {
+  padding: 25px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

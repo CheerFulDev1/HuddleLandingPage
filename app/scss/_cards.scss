@@ -1,5 +1,4 @@
 .cards{
-
     &__item{
         margin-top: 50px;
         box-shadow: -2px 2px 20px -12px $GrayishBlue;
@@ -31,7 +30,7 @@
 }
 
 .cta-card{
-    padding: 50px 0;
+    padding-top: 50px;
     .card{
         text-align: center;
         box-shadow: -2px 2px 20px -12px $GrayishBlue;
