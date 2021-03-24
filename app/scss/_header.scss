@@ -6,22 +6,24 @@
     background-position: center top;
     background-size: 120%;
     background-repeat: no-repeat;
-    border-color: $VeryPaleCyan;
+    background-color: $VeryPaleCyan;
 
     .container{
-        height: auto;
+        height: 100%;
         display: flex;
         align-items: center;
-        justify-content: start;
+        justify-content: center;
         flex-direction: column;
         text-align: center;
 
         .nav{
+            position: absolute;
             top: 0;
             max-width: 1080px;
             width: 100%;
-            margin: 0 auto;
-            padding: 1rem;
+            padding-top: 1.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -34,8 +36,8 @@
 
     &__cta{
         font-weight: 700;
-        font-size: 1rem;
-        padding: 10px 45px;
+        font-size: 0.85rem;
+        padding: 6px 32px;
         border-radius: 50px;
         background-color: #fff;
         box-shadow: -2px 2px 20px -10px $GrayishBlue;
@@ -49,18 +51,18 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 35px;
+        padding-top: 2rem;
 
         &__info{
             h1{
-                font-size: 2rem;
+                font-size: 1.5rem;
                 color: $VeryDarkCyan;
                 padding-bottom: 1.85rem;
-                padding-top: 3rem;
+                padding-top: 5rem;
             }
 
             p{
-                font-size: 1.3rem;
+                font-size: 1.025rem;
                 font-weight: 300;
                 line-height: 1.5;
                 color: $VeryDarkCyan;
@@ -72,7 +74,7 @@
             font-weight: 700;
             color: white;
             font-size: 0.85rem;
-            padding: 16px 60px;
+            padding: 15px 59px;
             border-radius: 50px;
             background-color: $Pink;
             box-shadow: -2px 2px 20px -12px $GrayishBlue;
@@ -81,6 +83,7 @@
         &__img{
             max-width: 500px;
             margin-top: 80px;
+            margin-bottom: 32px;
         }
 
     }

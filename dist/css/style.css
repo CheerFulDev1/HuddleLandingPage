@@ -38,20 +38,20 @@ img {
   background-position: center top;
   background-size: 120%;
   background-repeat: no-repeat;
-  border-color: #ebfbff;
+  background-color: #ebfbff;
 }
 
 .header .container {
-  height: auto;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -60,11 +60,13 @@ img {
 }
 
 .header .container .nav {
+  position: absolute;
   top: 0;
   max-width: 1080px;
   width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,8 +84,8 @@ img {
 
 .header__cta {
   font-weight: 700;
-  font-size: 1rem;
-  padding: 10px 45px;
+  font-size: 0.85rem;
+  padding: 6px 32px;
   border-radius: 50px;
   background-color: #fff;
   -webkit-box-shadow: -2px 2px 20px -10px #808d99;
@@ -106,18 +108,18 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 35px;
+  padding-top: 2rem;
 }
 
 .header .hero__info h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #00252e;
   padding-bottom: 1.85rem;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .header .hero__info p {
-  font-size: 1.3rem;
+  font-size: 1.025rem;
   font-weight: 300;
   line-height: 1.5;
   color: #00252e;
@@ -128,7 +130,7 @@ img {
   font-weight: 700;
   color: white;
   font-size: 0.85rem;
-  padding: 16px 60px;
+  padding: 15px 59px;
   border-radius: 50px;
   background-color: #ff52bf;
   -webkit-box-shadow: -2px 2px 20px -12px #808d99;
@@ -138,5 +140,6 @@ img {
 .header .hero__img {
   max-width: 500px;
   margin-top: 80px;
+  margin-bottom: 32px;
 }
 /*# sourceMappingURL=style.css.map */
