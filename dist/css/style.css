@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -43,19 +42,10 @@ img {
 
 .header .container {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -67,15 +57,9 @@ img {
   padding-top: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo {
@@ -88,26 +72,16 @@ img {
   padding: 6px 32px;
   border-radius: 50px;
   background-color: #fff;
-  -webkit-box-shadow: -2px 2px 20px -10px #808d99;
-          box-shadow: -2px 2px 20px -10px #808d99;
+  box-shadow: -2px 2px 20px -10px #808d99;
 }
 
 .header .hero {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding-top: 2rem;
 }
 
@@ -133,8 +107,7 @@ img {
   padding: 15px 59px;
   border-radius: 50px;
   background-color: #ff52bf;
-  -webkit-box-shadow: -2px 2px 20px -12px #808d99;
-          box-shadow: -2px 2px 20px -12px #808d99;
+  box-shadow: -2px 2px 20px -12px #808d99;
 }
 
 .header .hero__img {
@@ -145,8 +118,7 @@ img {
 
 .cards__item {
   margin-top: 50px;
-  -webkit-box-shadow: -2px 2px 20px -12px #808d99;
-          box-shadow: -2px 2px 20px -12px #808d99;
+  box-shadow: -2px 2px 20px -12px #808d99;
   border-radius: 25px;
 }
 
@@ -177,13 +149,14 @@ img {
 }
 
 .cta-card {
+  position: relative;
   padding-top: 50px;
 }
 
 .cta-card .card {
+  background-color: white;
   text-align: center;
-  -webkit-box-shadow: -2px 2px 20px -12px #808d99;
-          box-shadow: -2px 2px 20px -12px #808d99;
+  box-shadow: -2px 2px 20px -12px #808d99;
   border-radius: 25px;
   width: 100%;
   padding: 30px;
@@ -202,8 +175,7 @@ img {
   padding: 12px 35px;
   border-radius: 50px;
   background-color: #ff52bf;
-  -webkit-box-shadow: -2px 2px 20px -12px #808d99;
-          box-shadow: -2px 2px 20px -12px #808d99;
+  box-shadow: -2px 2px 20px -12px #808d99;
 }
 
 .footer {
@@ -227,27 +199,16 @@ img {
 }
 
 .footer__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding-top: 2rem;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .footer__info .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  align-content: flex-start;
+  justify-content: start;
 }
 
 .footer__info .contact img {
@@ -269,9 +230,9 @@ img {
 }
 
 .footer .footer-4 {
-  margin-top: 65px;
+  margin-top: 45px;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .footer__copyright {
@@ -282,6 +243,6 @@ img {
 
 .attribution {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=style.css.map */

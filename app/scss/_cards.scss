@@ -30,8 +30,10 @@
 }
 
 .cta-card{
+    position: relative;
     padding-top: 50px;
     .card{
+        background-color: white;
         text-align: center;
         box-shadow: -2px 2px 20px -12px $GrayishBlue;
         border-radius: 25px;
