@@ -7,6 +7,9 @@
     background-size: 120%;
     background-repeat: no-repeat;
     background-color: $VeryPaleCyan;
+    @include breakPoints-up(medium){
+        background-image: url(../../images/bg-hero-desktop.svg);
+    }
 
     .container{
         height: 100%;
@@ -17,21 +20,25 @@
         text-align: center;
 
         .nav{
-            position: absolute;
+            position: relative;
             top: 0;
-            max-width: 1080px;
             width: 100%;
             padding-top: 1.75rem;
-            padding-left: 0.9375rem;
-            padding-right: 0.9375rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            @include breakPoints-up(medium){
+                padding-top: 3.5rem;
+            }
         }
     }
 
     &__logo{
         width: 124px;
+        @include breakPoints-up(medium){
+            width: 200px;
+        }
     }
 
     &__cta{
@@ -41,6 +48,10 @@
         border-radius: 50px;
         background-color: #fff;
         box-shadow: -2px 2px 20px -10px $GrayishBlue;
+        @include breakPoints-up(medium){
+            font-size: 1rem;
+            padding: 16px 65px;
+        }
 
     }
 
@@ -53,14 +64,35 @@
         flex-direction: column;
         padding-top: 2rem;
 
+        @include breakPoints-up(medium){
+            flex-direction: row;
+            text-align: left;
+        }
+
         &__info{
+
+            @include breakPoints-up(medium){
+                flex: 2;
+                margin-right: 50px;
+            }
             h1{
                 font-size: 1.2rem;
                 color: $VeryDarkCyan;
                 padding-bottom: 2.375rem;
-                padding-top: 6rem;
-                padding-left: 2.75rem;
+                padding-top: 4rem;
                 padding-right: 2.75rem;
+                @include breakPoints-up(medium){
+                    font-size: 2.2rem;
+                }
+                // @include breakPoints-up(medium){
+                //     padding-left: 0;
+                //     padding-top: 0;
+                //     font-size: 1.5rem;
+                // }
+                // @include breakPoints-up(large){
+                //     font-size: 2.5rem;
+                    
+                // }
             }
 
             p{
@@ -68,9 +100,11 @@
                 font-weight: 300;
                 line-height: 1.5;
                 color: $VeryDarkCyan;
-                padding-left: 1.57rem;
                 padding-right: 1.57rem;
                 padding-bottom: 2.375rem;
+                /* @include breakPoints-up(medium){
+                    padding-left: 0;
+                } */
             }
         }
 
@@ -88,6 +122,13 @@
             max-width: 500px;
             margin-top: 56px;
             margin-bottom: 32px;
+            @include breakPoints-up(medium){
+                flex: 3;
+            }
+            /* @include breakPoints-up(medium){
+                max-width: 520px;
+                margin-top: 70px;
+            } */
         }
 
     }
