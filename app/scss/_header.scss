@@ -21,9 +21,9 @@
             top: 0;
             max-width: 1080px;
             width: 100%;
-            padding-top: 1.5rem;
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
+            padding-top: 1.75rem;
+            padding-left: 0.9375rem;
+            padding-right: 0.9375rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -31,13 +31,13 @@
     }
 
     &__logo{
-        width: 120px;
+        width: 124px;
     }
 
     &__cta{
         font-weight: 700;
-        font-size: 0.85rem;
-        padding: 6px 32px;
+        font-size: 0.6875rem;
+        padding: 8px 24px;
         border-radius: 50px;
         background-color: #fff;
         box-shadow: -2px 2px 20px -10px $GrayishBlue;
@@ -55,26 +55,30 @@
 
         &__info{
             h1{
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 color: $VeryDarkCyan;
-                padding-bottom: 1.85rem;
-                padding-top: 5rem;
+                padding-bottom: 2.375rem;
+                padding-top: 6rem;
+                padding-left: 2.75rem;
+                padding-right: 2.75rem;
             }
 
             p{
-                font-size: 1.025rem;
+                font-size: 0.75rem;
                 font-weight: 300;
                 line-height: 1.5;
                 color: $VeryDarkCyan;
-                padding-bottom: 3rem;
+                padding-left: 1.57rem;
+                padding-right: 1.57rem;
+                padding-bottom: 2.375rem;
             }
         }
 
         &__cta{
             font-weight: 700;
             color: white;
-            font-size: 0.85rem;
-            padding: 15px 59px;
+            font-size: 0.75rem;
+            padding: 0.75rem 3.75rem;
             border-radius: 50px;
             background-color: $Pink;
             box-shadow: -2px 2px 20px -12px $GrayishBlue;
@@ -82,7 +86,7 @@
 
         &__img{
             max-width: 500px;
-            margin-top: 80px;
+            margin-top: 56px;
             margin-bottom: 32px;
         }
 
