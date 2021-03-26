@@ -86,6 +86,10 @@
             border-radius: 50px;
             background-color: $Pink;
             box-shadow: -2px 2px 20px -12px $GrayishBlue;
+            &:hover{
+                cursor: pointer;
+                background-color: hotpink;
+            }
         }
     }
 }

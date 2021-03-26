@@ -51,6 +51,10 @@
         @include breakPoints-up(medium){
             font-size: 1rem;
             padding: 16px 65px;
+            &:hover{
+                cursor: pointer;
+                color: $GrayishBlue;
+            }
         }
 
     }
@@ -74,6 +78,7 @@
             @include breakPoints-up(medium){
                 flex: 2;
                 margin-right: 50px;
+                align-self: inherit;
             }
             h1{
                 font-size: 1.2rem;
@@ -82,7 +87,9 @@
                 padding-top: 4rem;
                 padding-right: 2.75rem;
                 @include breakPoints-up(medium){
-                    font-size: 2.2rem;
+                    font-size: 3vw;
+                    padding-top: 0;
+                    padding-bottom: 1rem;
                 }
                 // @include breakPoints-up(medium){
                 //     padding-left: 0;
@@ -102,9 +109,9 @@
                 color: $VeryDarkCyan;
                 padding-right: 1.57rem;
                 padding-bottom: 2.375rem;
-                /* @include breakPoints-up(medium){
+                @include breakPoints-up(medium){
                     padding-left: 0;
-                } */
+                }
             }
         }
 
@@ -116,14 +123,23 @@
             border-radius: 50px;
             background-color: $Pink;
             box-shadow: -2px 2px 20px -12px $GrayishBlue;
+            @include breakPoints-up(medium){
+                font-size: 0.85rem;
+                padding: 20px 70px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: hotpink;
+                }
+            }
         }
 
         &__img{
-            max-width: 500px;
             margin-top: 56px;
             margin-bottom: 32px;
             @include breakPoints-up(medium){
                 flex: 3;
+                width: 100%;
+                margin-top: 10px;
             }
             /* @include breakPoints-up(medium){
                 max-width: 520px;

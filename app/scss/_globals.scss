@@ -28,5 +28,8 @@ img{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 2rem;
+    @include breakPoints-up(medium){
+        padding: 0 4rem;
+    }
 }
 
